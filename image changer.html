@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Untitled Document</title>
+<script language="javascript" type="text/javascript">
+var timerid = 0;
+var images = new Array(	"http://i1196.photobucket.com/albums/aa401/albertsun0000/pic2_zpskelpkjoo.png",
+			"http://i1196.photobucket.com/albums/aa401/albertsun0000/pic_zps6y0s9ztt.png",
+			"http://i1196.photobucket.com/albums/aa401/albertsun0000/pic3_zpsbsmwrkxi.png")
+var countimages = 0;
+function startTime()
+{
+	if(timerid)
+	{
+		timerid = 0;
+	}
+	var tDate = new Date();
+	
+	if(countimages == images.length)
+	{
+		countimages = 0;
+	}
+	if(tDate.getSeconds() % 5 == 0)
+	{
+		document.getElementById("img1").src = images[countimages];
+	}
+	countimages++;
+	
+	timerid = setTimeout("startTime()", 1000);
+}
+</script>
+</head>
+<body onload="startTime();">
+<img id="img1" src="image3.jpg" />
+</body>
+</html>
