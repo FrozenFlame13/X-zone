@@ -27,9 +27,11 @@ We are frequently updating
    
     Bug Fixes(LOTS OF THEM)
     
+    
+  (Small bug fixes and more in between. nothing noteworthy) 
   TO BE SOON
-  
-  1.10:
+
+  1.20:
   
     Two New Classes (rocket and laser)!!
     
