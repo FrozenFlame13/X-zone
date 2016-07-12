@@ -29,9 +29,10 @@ We are frequently updating
     
     
   (Small bug fixes and more in between. nothing noteworthy) 
+  
   TO BE SOON
 
-  1.20:
+  1.20:  (Build 20)
   
     Two New Classes (rocket and laser)!!
     
